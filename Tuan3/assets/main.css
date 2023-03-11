@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
-    margin-left: 75px;
-}
+
 
 #header {
     display: flex;
-    width: 1440px;
+    text-align: center;
     height: 60px;
 }
 
@@ -20,8 +18,8 @@ body {
     justify-content: flex-start;
     align-content: center;
 }
-
 .menu_left a {
+    padding: 22.5px 15px;
     text-decoration: none;
     color: black;
     display: flex;
@@ -32,6 +30,7 @@ body {
 }
 
 .logo {
+    padding: 10px 0;
     width: 100%;
     justify-content: center;
 }
@@ -40,4 +39,20 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+}
+.search-bar{
+    color: #e6e6e6;
+    margin-top: 20px;
+    padding: 3px 0 0 5px;
+    height: 30px;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+}
+#cart, #account{
+    margin-top: 15px;
+    padding-right: 5px;
+    height: 40px;
+}
+#banner{
+    width: 100%;
 }
