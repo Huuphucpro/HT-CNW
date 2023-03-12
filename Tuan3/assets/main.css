@@ -17,19 +17,17 @@
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    align-content: center;
 }
 .menu_left a {
     padding: 22.5px 10px;
     text-decoration: none;
-    color: black;
+    color: #777777;
     display: flex;
-    margin-right: 10px;
+    margin-right: 5px;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .logo {
     padding: 10px 0;
     width: 100%;
@@ -65,5 +63,39 @@
     position: absolute;
     width: 100%;
     height: 0px;
-
+}
+#sort-product{
+    margin: 0 110px;
+    padding: 40px 0;
+    display: flex;
+}
+.sort-product-left{
+    display: flex;
+    justify-content: flex-start;
+}
+.sort-product-left > div{
+    text-align: center;
+    width: 120px;
+    color: #14b17c;
+    padding: 8px 20px;
+}
+.sort-product-left .sort-product-lef-line{
+    color: #14b17c;
+    padding: 8px 0px;
+    width: 5px;
+}
+.sort-product-left .sort-product-left-1{
+    color: #fff;
+    background-color: #14b17c;
+    border-radius: 5px;
+}
+.sort-product-right{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    margin-left: 615px;
+    color: #777777;
+    background-color: #e9e9e9;
+    border-radius: 1px;
+    justify-content: flex-end;
 }
