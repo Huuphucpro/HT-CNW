@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+#wrapper {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+}
+
+#left-menu {
+    width: 50px;
+}
+
+#left-menu .top-menu,
+#left-menu .bot-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#left-menu .top-menu img,
+#left-menu .bot-menu img {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+
+#left-menu .bot-menu img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main-content {
+    width: auto;
+}
+
+#main-content h2 {
+    display: inline-block;
+}
+
+#main-content .time-meeting {
+    display: inline-block;
+    float: right;
+    color: red;
+    border: 1px solid red;
+    border-radius: 20%;
+}
+
+#right-content {
+    position: sticky;
+    width: 500px;
+    backg round-color: aqua;
+}
