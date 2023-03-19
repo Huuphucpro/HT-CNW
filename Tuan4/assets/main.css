@@ -6,6 +6,7 @@
 }
 
 #wrapper {
+    position: relative;
     width: 80%;
     padding: 0 10%;
     display: flex;
@@ -52,7 +53,7 @@
     color: red;
     border: 1px solid red;
     border-radius: 25px;
-    padding: 8px 10px;
+    padding: 5px 10px;
 }
 
 #main-content .infor-meeting div{
@@ -63,7 +64,7 @@
     align-items: center;
 }
 #main-content .infor-meeting{
-    padding: 20px 5px;
+    padding: 0px 5px 30px 5px;
 }
 #main-content .infor-meeting .infor-meeting-item-1{
     background-color: #df4f7a;
@@ -79,13 +80,14 @@
 #main-content .subspotlight div{
     padding: 15px 0;
 }
+
 #right-content {
     padding-left: 50px;
     position: sticky;
     width: 200px;
 }
 #participants .participants-top{
-    padding: 20px;
+    padding: 20px 0;
 }
 #participants .add {
     float: right;
