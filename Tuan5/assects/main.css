@@ -8,6 +8,7 @@
     height: 50px;
     width: 100%;
     display: flex;
+    padding: 20px;
 }
 
 #menu .logo-menu {
@@ -39,30 +40,34 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#menu.right-menu {
-    float: right;
-    width: 500px;
-}
-
-#menu .right-menu div {
-    display: inline-block;
+#menu .right-menu {
+    display: flex;
 }
 
 #menu .right-menu .search-bar {
-    height: 30px;
+    width: 300px;
     position: relative;
+    padding: 15px;
 }
 
 #menu .right-menu .search-bar i {
     position: absolute;
+    padding: 9px 5px;
 }
 
 #menu .right-menu .search-bar input {
+    width: 100%;
+    height: 30px;
     border: 3px;
     background-color: #f3f3f3;
+    border-radius: 3px;
 }
 
 #menu .right-menu img {
     margin: 15px 5px;
     height: 30px;
+}
+
+.control_select {
+    display: flex;
 }
