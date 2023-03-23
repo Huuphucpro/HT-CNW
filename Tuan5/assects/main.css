@@ -5,10 +5,10 @@
 }
 
 #menu {
-    height: 50px;
+    height: 60px;
     width: 100%;
     display: flex;
-    padding: 20px;
+    border-bottom: 1px solid  rgb(219, 200, 200);
 }
 
 #menu .logo-menu {
@@ -42,6 +42,7 @@
 
 #menu .right-menu {
     display: flex;
+    padding-right: 10px;
 }
 
 #menu .right-menu .search-bar {
@@ -69,5 +70,20 @@
 }
 
 .control_select {
+    display: flex;
+}
+#page-wrapper{
+    padding: 40px 10%;
+}
+#page-wrapper .rate-product{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+#page-wrapper .rate-product img{
+    position: absolute;
+}
+#page-wrapper .rate-product .rate-product-right{
     display: flex;
 }
