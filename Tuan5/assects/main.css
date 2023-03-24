@@ -121,6 +121,7 @@
     position: relative;
     display: grid;
     padding: 20px 5px;
+    border-bottom: 1px solid  rgb(219, 200, 200);
 }
 #infor-product .desc-product{
     grid-column: 1 / span 2;
@@ -177,4 +178,45 @@
     background-color: #fff;
     color:  rgb(8, 212, 212);
     margin-bottom: 5px;
+}
+
+#reviews .header-reviews{
+    padding: 30px 0 20px 0;
+    position: relative;
+}
+#reviews .body-reviews{
+    display: grid;
+}
+#reviews .body-reviews .review-of-mem{
+    position: relative;
+}
+#reviews .body-reviews h3,#reviews .body-reviews p{
+    display: inline-block;
+    position: absolute;
+}
+#reviews .body-reviews .time-review{
+    padding-left: 170px;
+    color: rgb(117, 117, 117);
+    position: absolute;
+    top: 2px;
+}
+#reviews .body-reviews .review-1{
+    padding: 15px 0;
+    grid-column: 1;
+    grid-row: 1;
+}
+#reviews .body-reviews .review-2{
+    padding: 15px 0;
+    grid-column: 2;
+    grid-row: 1;
+}
+#reviews .body-reviews .review-3{
+    padding: 15px 0;
+    grid-column: 1;
+    grid-row: 2;
+}
+#reviews .body-reviews .review-4{
+    padding: 15px 0;
+    grid-column: 2;
+    grid-row: 2;
 }
