@@ -254,3 +254,24 @@
     justify-content: space-between;
     padding: 5px;
 }
+#footer{
+    position: relative;
+    height: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#footer select{
+    position: absolute;
+    top: 13px;
+    height: 25px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+}
+#footer img{
+    width: 25px;
+    padding: 0 3px;
+}
