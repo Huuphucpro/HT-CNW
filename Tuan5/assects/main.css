@@ -186,8 +186,12 @@
 }
 #reviews .body-reviews{
     display: grid;
+    padding-bottom: 15px;
+    border-bottom: 1px solid  rgb(219, 200, 200);
+    
 }
 #reviews .body-reviews .review-of-mem{
+    padding-bottom: 5px;
     position: relative;
 }
 #reviews .body-reviews h3,#reviews .body-reviews p{
@@ -195,7 +199,6 @@
     position: absolute;
 }
 #reviews .body-reviews .time-review{
-    padding-left: 170px;
     color: rgb(117, 117, 117);
     position: absolute;
     top: 2px;
@@ -219,4 +222,35 @@
     padding: 15px 0;
     grid-column: 2;
     grid-row: 2;
+}
+#related-product{
+    padding-bottom: 50px;
+    border-bottom: 1px solid  rgb(219, 200, 200);
+}
+#related-product .header-related-product{
+    padding: 25px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#related-product .body-related-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#related-product .body-related-product .imgrltp{
+    width: 100%;
+    padding: 0 5px;
+}
+#related-product .body-related-product h3{
+    display: inline-block;
+}
+#related-product .body-related-product .rlt-title-product{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#related-product .body-related-product .rate-sold-rltp{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
