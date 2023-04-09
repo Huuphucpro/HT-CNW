@@ -1,0 +1,12 @@
+.container{
+    padding: 20% 45%;
+}
+.btns{
+    padding: 0 2px;
+}
+button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #1ae6c4;
+    border-radius: 3px;
+}
